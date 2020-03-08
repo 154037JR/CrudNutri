@@ -23,15 +23,15 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label1 = new System.Windows.Forms.Label();
             this.chartSexo = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnActualizarGrafico = new System.Windows.Forms.Button();
@@ -50,43 +50,42 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(270, 9);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(314, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 52);
+            this.label1.Size = new System.Drawing.Size(174, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Estadísticas";
             // 
             // chartSexo
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartSexo.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chartSexo.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.chartSexo.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartSexo.Legends.Add(legend1);
             this.chartSexo.Location = new System.Drawing.Point(20, 7);
-            this.chartSexo.Margin = new System.Windows.Forms.Padding(4);
+            this.chartSexo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chartSexo.Name = "chartSexo";
-            series6.ChartArea = "ChartArea1";
-            series6.Legend = "Legend1";
-            series6.Name = "Mujeres";
-            series6.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            series7.ChartArea = "ChartArea1";
-            series7.Legend = "Legend1";
-            series7.Name = "Hombres";
-            this.chartSexo.Series.Add(series6);
-            this.chartSexo.Series.Add(series7);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Mujeres";
+            series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Hombres";
+            this.chartSexo.Series.Add(series1);
+            this.chartSexo.Series.Add(series2);
             this.chartSexo.Size = new System.Drawing.Size(741, 440);
             this.chartSexo.TabIndex = 1;
             this.chartSexo.Text = "chart1";
             // 
             // btnActualizarGrafico
             // 
-            this.btnActualizarGrafico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizarGrafico.Location = new System.Drawing.Point(654, 402);
-            this.btnActualizarGrafico.Margin = new System.Windows.Forms.Padding(4);
+            this.btnActualizarGrafico.Location = new System.Drawing.Point(661, 416);
+            this.btnActualizarGrafico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnActualizarGrafico.Name = "btnActualizarGrafico";
-            this.btnActualizarGrafico.Size = new System.Drawing.Size(110, 42);
+            this.btnActualizarGrafico.Size = new System.Drawing.Size(100, 28);
             this.btnActualizarGrafico.TabIndex = 2;
             this.btnActualizarGrafico.Text = "Actualizar";
             this.btnActualizarGrafico.UseVisualStyleBackColor = true;
@@ -94,36 +93,35 @@
             // 
             // chartEdad
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartEdad.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartEdad.Legends.Add(legend4);
+            chartArea2.Name = "ChartArea1";
+            this.chartEdad.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartEdad.Legends.Add(legend2);
             this.chartEdad.Location = new System.Drawing.Point(7, 7);
-            this.chartEdad.Margin = new System.Windows.Forms.Padding(4);
+            this.chartEdad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chartEdad.Name = "chartEdad";
-            series8.ChartArea = "ChartArea1";
-            series8.Legend = "Legend1";
-            series8.Name = "Menores de 18";
-            series9.ChartArea = "ChartArea1";
-            series9.Legend = "Legend1";
-            series9.Name = "Entre 18 y 29";
-            series10.ChartArea = "ChartArea1";
-            series10.Legend = "Legend1";
-            series10.Name = "Mayores de 30";
-            this.chartEdad.Series.Add(series8);
-            this.chartEdad.Series.Add(series9);
-            this.chartEdad.Series.Add(series10);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Menores de 18";
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Entre 18 y 29";
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Mayores de 30";
+            this.chartEdad.Series.Add(series3);
+            this.chartEdad.Series.Add(series4);
+            this.chartEdad.Series.Add(series5);
             this.chartEdad.Size = new System.Drawing.Size(754, 437);
             this.chartEdad.TabIndex = 3;
             this.chartEdad.Text = "chart1";
             // 
             // btnActualizarGrafico1
             // 
-            this.btnActualizarGrafico1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizarGrafico1.Location = new System.Drawing.Point(654, 402);
-            this.btnActualizarGrafico1.Margin = new System.Windows.Forms.Padding(4);
+            this.btnActualizarGrafico1.Location = new System.Drawing.Point(661, 416);
+            this.btnActualizarGrafico1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnActualizarGrafico1.Name = "btnActualizarGrafico1";
-            this.btnActualizarGrafico1.Size = new System.Drawing.Size(110, 42);
+            this.btnActualizarGrafico1.Size = new System.Drawing.Size(100, 28);
             this.btnActualizarGrafico1.TabIndex = 4;
             this.btnActualizarGrafico1.Text = "Actualizar";
             this.btnActualizarGrafico1.UseVisualStyleBackColor = true;
@@ -171,7 +169,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "VentanaEstadisticas";
             this.Text = "VentanaEstadisticas";
             ((System.ComponentModel.ISupportInitialize)(this.chartSexo)).EndInit();
